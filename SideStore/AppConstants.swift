@@ -54,10 +54,6 @@ public enum AppConstants {
     }
     public typealias PairingWebServer = WebTransferServer
 
-    public enum GrandSlam {
-        public static let defaultXcodeVersion = Constants.GrandSlam.defaultXcodeVersion
-    }
-
     public enum Anisette {
         public static let hiddenBaseDirectoryName     = ".anisette"
         public static let appSupportSubdirectory      = "SideStore"
@@ -103,10 +99,11 @@ public enum AppConstants {
     }
 
     public enum GrandSlam {
-        public static let service        = Constants.GrandSlam.service
-        public static let headerVersion  = Constants.GrandSlam.headerVersion
-        public static let authApp        = Constants.GrandSlam.authApp
-        public static let userAgent      = Constants.GrandSlam.userAgent
+        public static let service            = Constants.GrandSlam.service
+        public static let headerVersion      = Constants.GrandSlam.headerVersion
+        public static let authApp            = Constants.GrandSlam.authApp
+        public static let userAgent          = Constants.GrandSlam.userAgent
+        public static let defaultXcodeVersion = Constants.GrandSlam.defaultXcodeVersion
     }
 
     public enum AppleAuth {
