@@ -394,7 +394,7 @@ struct AnisetteDataView: View {
                                 title: "Xcode Version",
                                 headerKey: "X-Xcode-Version",
                                 text: $viewModel.customXcodeVersion,
-                                placeholder: "26.0 (26A242)"
+                                placeholder: AppConstants.GrandSlam.defaultXcodeVersion
                             )
                         }
                         .background(Color.settingsRowBackground)

@@ -54,6 +54,10 @@ public enum AppConstants {
     }
     public typealias PairingWebServer = WebTransferServer
 
+    public enum GrandSlam {
+        public static let defaultXcodeVersion = Constants.GrandSlam.defaultXcodeVersion
+    }
+
     public enum Anisette {
         public static let hiddenBaseDirectoryName     = ".anisette"
         public static let appSupportSubdirectory      = "SideStore"
